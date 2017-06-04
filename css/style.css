@@ -1,0 +1,65 @@
+/* wysrodkowanie wertykalne i horyzontalne div w div */
+.box {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	background-color: darkorange;
+	
+}
+.boxsmall {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 25%;
+		
+	margin:0 auto;
+	
+	height: 150px;
+	width: 150px;
+	background-color: gold
+}
+
+#circle-bottom {
+	position: relative;
+	top: 100px;
+	left: 100px;
+	height: 150px;
+	width: 150px;
+	background-color: yellow;
+	border-radius: 50%;
+	border: 1px solid black;
+	
+}
+	#circle-bottom:hover {
+	background-color:#1ac056;
+	cursor: pointer;
+	
+}
+#circle-bottom a{
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+	text-align: center; 
+	color:red;
+	font-size: 50px;
+}
+#circle-bottom a:hover {
+	
+	color:greenyellow;}
+
+
+	
+.gradient {
+	
+	left:400px;
+	width: 800px;
+	height:100px;
+	background: linear-gradient(to left, violet, blue, green, yellow, orange, red);
+	 
+	
+}
+
+
+	
+	
